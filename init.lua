@@ -720,6 +720,10 @@ do
         client.server_capabilities.hoverProvider = false
       end,
     },
+
+    -- Markdown: marksman for navigation/completion (headings, links, refs).
+    -- Formatting is done by prettier (conform), linting by markdownlint.
+    marksman = {},
     --
     -- Some languages (like typescript) have entire language plugins that can be useful:
     --    https://github.com/pmizio/typescript-tools.nvim
@@ -783,7 +787,9 @@ do
   -- You can press `g?` for help in this menu.
   local ensure_installed = vim.tbl_keys(servers or {})
   vim.list_extend(ensure_installed, {
-    -- You can add other tools here that you want Mason to install
+    -- Markdown tooling (not LSPs, so listed here rather than in `servers`):
+    'prettier', -- markdown formatter (conform)
+    'markdownlint', -- markdown linter (kickstart.plugins.lint)
   })
 
   require('mason-tool-installer').setup { ensure_installed = ensure_installed }
@@ -808,6 +814,7 @@ do
       local enabled_filetypes = {
         -- lua = true,
         python = true,
+        markdown = true,
       }
       if enabled_filetypes[vim.bo[bufnr].filetype] then
         return { timeout_ms = 500 }
@@ -824,6 +831,7 @@ do
       -- Conform can also run multiple formatters sequentially
       -- ruff replaces black + isort: format then sort imports.
       python = { 'ruff_format', 'ruff_organize_imports' },
+      markdown = { 'prettier' },
       --
       -- You can use 'stop_after_first' to run the first available formatter from the list
       -- javascript = { "prettierd", "prettier", stop_after_first = true },
@@ -993,7 +1001,7 @@ do
   --
   require 'kickstart.plugins.debug' -- nvim-dap + dap-ui (Python adapter wired in custom/plugins/python.lua)
   require 'kickstart.plugins.indent_line'
-  -- require 'kickstart.plugins.lint'
+  require 'kickstart.plugins.lint' -- nvim-lint; markdown -> markdownlint
   -- require 'kickstart.plugins.autopairs'
   require 'kickstart.plugins.neo-tree' -- file-explorer sidebar; toggle with `\`
   require 'kickstart.plugins.gitsigns' -- adds gitsigns recommended keymaps
