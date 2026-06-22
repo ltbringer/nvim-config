@@ -1,0 +1,24 @@
+{
+  "name": "Melange Dark",
+  "foreground": "#ece1d7",
+  "background": "#2a2520",
+  "cursor": "#ece1d7",
+  "colors": [
+    "#352f2a",
+    "#b65c60",
+    "#78997a",
+    "#ebc06d",
+    "#9aacce",
+    "#b380b0",
+    "#86a3a3",
+    "#a38d78",
+    "#4d453e",
+    "#f17c64",
+    "#99d59d",
+    "#ebc06d",
+    "#9aacce",
+    "#ce9bcb",
+    "#88b3b2",
+    "#c1a78e"
+  ]
+}

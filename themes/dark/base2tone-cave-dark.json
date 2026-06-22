@@ -1,0 +1,24 @@
+{
+  "name": "base2tone-cave-dark",
+  "foreground": "#9f999b",
+  "background": "#222021",
+  "cursor": "#996e00",
+  "colors": [
+    "#222021",
+    "#936c7a",
+    "#cca133",
+    "#ffcc4d",
+    "#9c818b",
+    "#cca133",
+    "#d27998",
+    "#9f999b",
+    "#635f60",
+    "#ddaf3c",
+    "#2f2d2e",
+    "#565254",
+    "#706b6d",
+    "#f0a8c1",
+    "#c39622",
+    "#ffebf2"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "name": "base2tone-forest-dark",
+  "foreground": "#a1b5a1",
+  "background": "#2a2d2a",
+  "cursor": "#656b47",
+  "colors": [
+    "#2a2d2a",
+    "#5c705c",
+    "#bfd454",
+    "#e5fb79",
+    "#687d68",
+    "#bfd454",
+    "#8fae8f",
+    "#a1b5a1",
+    "#535f53",
+    "#cbe25a",
+    "#353b35",
+    "#485148",
+    "#5e6e5e",
+    "#c8e4c8",
+    "#b1c44f",
+    "#f0fff0"
+  ]
+}

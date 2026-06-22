@@ -1,0 +1,24 @@
+{
+  "name": "deep",
+  "foreground": "#cdcdcd",
+  "background": "#000000",
+  "cursor": "#d0d0d0",
+  "colors": [
+    "#000000",
+    "#d11600",
+    "#37c32c",
+    "#e3c421",
+    "#5c6bfd",
+    "#dd5be5",
+    "#6eb4f2",
+    "#e0e0e0",
+    "#535353",
+    "#f4152c",
+    "#01ea10",
+    "#ffee1d",
+    "#8cb0f8",
+    "#e056f5",
+    "#67ecff",
+    "#f4f4f4"
+  ]
+}

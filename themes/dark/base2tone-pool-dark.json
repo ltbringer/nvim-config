@@ -1,0 +1,24 @@
+{
+  "name": "base2tone-pool-dark",
+  "foreground": "#9a90a7",
+  "background": "#2a2433",
+  "cursor": "#cf504a",
+  "colors": [
+    "#2a2433",
+    "#aa75f5",
+    "#f87972",
+    "#ffb6b3",
+    "#b886fd",
+    "#f87972",
+    "#c7a0fe",
+    "#9a90a7",
+    "#635775",
+    "#fc8983",
+    "#372f42",
+    "#574b68",
+    "#706383",
+    "#e4d2fe",
+    "#f36f68",
+    "#f3ebff"
+  ]
+}

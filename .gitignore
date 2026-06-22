@@ -1,0 +1,11 @@
+tags
+test.sh
+.luarc.json
+nvim
+
+spell/
+
+# Track nvim-pack-lock.json (vim.pack lockfile) so plugin versions are
+# reproducible on a fresh checkout - see :help vim.pack-lockfile
+
+.DS_Store
